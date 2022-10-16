@@ -1,0 +1,90 @@
+
+button {
+  background-color: inherit;
+}
+
+body {
+background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/sk10801-image-kwvumx0r.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=a45cb6f79eb194d7c2b95be359d5fba2);
+
+    background-size: center;
+}
+
+h1 {
+  color: red;
+
+}
+
+h3 {
+  color: red;
+
+}
+ol {
+  color: yellow;
+}
+td{
+  font-size: 20px;
+  color: white
+}
+#j {
+  font-color: white;
+}
+
+
+.box {
+  border-style: outset;
+  border-width: 4x;
+  border-color: red
+}
+.square {
+  border: blue 30px solid fixed
+}
+
+.black-background{
+  background-color: black;
+  border: 10px solid white
+}
+
+
+button:hover {
+  animation: shake;
+  animation-duration: 2s;
+  color: antiquewhite;
+  background-color: #105410;
+  font-size: 30px;
+}
+
+#winorlose{
+  color: red;
+  font-size: 150px
+}
+hr {
+  border: none;
+}
+
+table {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.line {
+  list-style-type: none;
+}
+
+  #top{
+  animation: shake 3s infinite;
+  animiation-timing-function: ease-out;
+  animiation-direction: alternate;
+  animation-fill-mode: both;
+}
+
+@keyframes shake {
+0%{
+  transform: translate(1px, 1px) rotate(0deg);}
+  }
+  15% {
+  transform: translate(-3px, 0px) rotate(1deg);
+}
+30%{
+  transform: translate(2px, -2px) rotate(-1deg);
+ }
+}
